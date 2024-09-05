@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shop Account</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/catogory.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a asp-controller="Home">Home</a>
+                <a asp-controller="Shop">Shop</a>
+                <a asp-controller="History">Lịch sử</a>
+                <a asp-controller="Payin">Nạp tiền</a>
+                <a asp-controller="Cart">Giỏ hàng</a>
+                @if (User.Identity?.IsAuthenticated ?? false)
+                {
+                    <a asp-controller="Account" asp-action="Logout">Xin Chào, @User.Identity.Name  Đăng Xuất</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login"><i class="fa fa-lock"></i>Đăng Nhập</a>
+                }
+            </div>
+            <div class="nav-right">
+                <form asp-controller="Search" asp-action="Index" method="get" class="search-form">
+                    <input type="text" name="query" placeholder="Tìm kiếm..." class="search-input">
+                    <button type="submit" class="search-button">🔍</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        @Html.Partial("_Notification")
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2024 - Shop Account</p>
+    </footer>
+    <script src="~/backend/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

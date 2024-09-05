@@ -1,0 +1,187 @@
+﻿@model ShopAcc.Models.NickModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .col-md-9 {
+        margin-top: 20px;
+    }
+
+    h1 {
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+
+    .form-control {
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            border-color: #0056b3;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 0.875rem;
+    }
+
+    img.pt-2 {
+        margin-top: 10px;
+        max-width: 100px;
+        max-height: 100px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h1>Cập Nhật Nick</h1>
+<div class="col-md-9">
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label>Level Acc</label>
+            <input asp-for="LevelAcc" class="form-control" />
+            <span asp-validation-for="LevelAcc" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Mô Tả</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Tổng Tướng</label>
+            <input asp-for="TongTuong" class="form-control" />
+            <span asp-validation-for="TongTuong" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Tổng Trấn</label>
+            <input asp-for="TongTran" class="form-control" />
+            <span asp-validation-for="TongTran" class="text-danger"></span>
+        </div>
+        <!-- Tướng Nổi Bật -->
+        <div class="form-group">
+            <label for="TuongNoiBat">Tướng Nổi Bật</label>
+            <input asp-for="UploadTuongNoiBat" type="file" class="form-control" multiple />
+            <span asp-validation-for="UploadTuongNoiBat" class="text-danger"></span>
+            @* Tướng nổi bật *@
+            @{
+                string imageListTuong = @Model.TuongNoiBat;
+                var anhTuong = imageListTuong.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            }
+            @foreach (var tuong in anhTuong)
+            {
+                <img width="50px" height="50px" src="~/media/nicks/@tuong.Trim()" alt="Tướng nổi bật">
+            }
+            @* <img width="50px" height="50px" src="~/media/nicks/@Model.TuongNoiBat" alt=""> *@
+        </div>
+
+        <!-- Trấn Nổi Bật -->
+        <div class="form-group">
+            <label for="TranNoiBat">Trấn Nổi Bật</label>
+            <input asp-for="UploadTranNoiBat" type="file" class="form-control" multiple />
+            <span asp-validation-for="UploadTranNoiBat" class="text-danger"></span>
+            @* Trấn nổi bật *@
+            @{
+                string imageListTran = @Model.TranNoiBat;
+                var anhTran = imageListTran.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            }
+            @foreach (var tran in anhTran)
+            {
+                <img width="50px" height="50px" src="~/media/nicks/@tran.Trim()" alt="Trấn nổi bật">
+            }
+@*             <img width="50px" height="50px" src="~/media/nicks/@Model.TranNoiBat" alt=""> *@
+        </div>
+
+        <!-- Ảnh Bìa -->
+        <div class="form-group">
+            <label for="AnhBia">Ảnh Bìa</label>
+            <input asp-for="UploadAnhBia" type="file" class="form-control" />
+            <span asp-validation-for="UploadAnhBia" class="text-danger"></span>
+            <img width="50px" height="50px" src="~/media/nicks/@Model.AnhBia" alt="">
+        </div>
+
+        <div class="form-group">
+            <label>Giá</label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Danh Mục</label>
+            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+                <option>-- Chọn danh mục --</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Máy Chủ</label>
+            <select asp-for="ServerId" class="form-control" asp-items="ViewBag.Servers">
+                <option>-- Chọn máy chủ --</option>
+            </select>
+            <span asp-validation-for="ServerId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Nhân Vật</label>
+            <select asp-for="CharacterId" class="form-control" asp-items="ViewBag.Characters">
+                <option>-- Chọn nhận vật --</option>
+            </select>
+            <span asp-validation-for="CharacterId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Cập nhật</button>
+        </div>
+    </form>
+
+    <a asp-action="Index">Quay lại danh sách nick</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    @*  <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Description');
+    </script> *@
+}
+

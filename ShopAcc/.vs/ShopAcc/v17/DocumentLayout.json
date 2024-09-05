@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|c:\\users\\phuct\\onedrive\\desktop\\shopacc\\shopacc\\shopacc\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|solutionrelative:shopacc\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|c:\\users\\phuct\\onedrive\\desktop\\shopacc\\shopacc\\shopacc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|solutionrelative:shopacc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|c:\\users\\phuct\\onedrive\\desktop\\shopacc\\shopacc\\shopacc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|solutionrelative:shopacc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|c:\\users\\phuct\\onedrive\\desktop\\shopacc\\shopacc\\shopacc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C851D7C6-8C33-4C86-9AF7-D4EED03CEF42}|ShopAcc\\ShopAcc.csproj|solutionrelative:shopacc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopAcc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopAcc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T08:06:16.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShopAcc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ShopAcc\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwEoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T07:58:12.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopAcc\\Views\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "ShopAcc\\Views\\Account\\Create.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAwwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T07:55:04.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ShopAcc\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ShopAcc\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T07:54:57.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

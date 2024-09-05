@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"] - Admin</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/catogory.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Nick" asp-action="Index">Nick</a>
+                <a asp-controller="Category" asp-action="Index">Category</a>
+                <a asp-controller="Server" asp-action="Index">Server</a>
+                <a asp-controller="Character" asp-action="Index">Character</a>
+                <a asp-controller="Login">Đăng nhập</a>
+            </div>
+            <div class="nav-right">
+                <form asp-controller="Search" asp-action="Index" method="get" class="search-form">
+                    <input type="text" name="query" placeholder="Tìm kiếm..." class="search-input">
+                    <button type="submit" class="search-button">🔍</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        @Html.Partial("_Notification")
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2024 - Shop Account</p>
+    </footer>
+    <script src="~/backend/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

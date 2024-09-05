@@ -1,0 +1,505 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopAcc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopAcc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\css\\catogory.css",
+      "PackagePath": "staticwebassets\\css\\catogory.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranEi.png",
+      "PackagePath": "staticwebassets\\images\\TranEi.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranFurina.png",
+      "PackagePath": "staticwebassets\\images\\TranFurina.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranIL.jpg",
+      "PackagePath": "staticwebassets\\images\\TranIL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranNahida.png",
+      "PackagePath": "staticwebassets\\images\\TranNahida.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranSeele.png",
+      "PackagePath": "staticwebassets\\images\\TranSeele.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TranZhongli.png",
+      "PackagePath": "staticwebassets\\images\\TranZhongli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TuongEi.png",
+      "PackagePath": "staticwebassets\\images\\TuongEi.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TuongIL.jpg",
+      "PackagePath": "staticwebassets\\images\\TuongIL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TuongNahida.png",
+      "PackagePath": "staticwebassets\\images\\TuongNahida.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TuongSeele.png",
+      "PackagePath": "staticwebassets\\images\\TuongSeele.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\TuongZhongli.png",
+      "PackagePath": "staticwebassets\\images\\TuongZhongli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\acc.jpg",
+      "PackagePath": "staticwebassets\\images\\acc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\anhbia.jpg",
+      "PackagePath": "staticwebassets\\images\\anhbia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\anhbia.png",
+      "PackagePath": "staticwebassets\\images\\anhbia.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\genshin.png",
+      "PackagePath": "staticwebassets\\images\\genshin.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\images\\hsr.png",
+      "PackagePath": "staticwebassets\\images\\hsr.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\35e64204-e44b-4105-b35f-6209f86f417c.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\35e64204-e44b-4105-b35f-6209f86f417c.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\36a288dc-0b10-44ae-bc81-d4afb9ee2b82.jpg",
+      "PackagePath": "staticwebassets\\media\\nicks\\36a288dc-0b10-44ae-bc81-d4afb9ee2b82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\5a8ea668-e7e2-42bb-aa87-f529b992e3c6.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\5a8ea668-e7e2-42bb-aa87-f529b992e3c6.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\7da70e34-f00f-43ed-960f-ffbd8a5fe473.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\7da70e34-f00f-43ed-960f-ffbd8a5fe473.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranEi.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranEi.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranFurina.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranFurina.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranNahida.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranNahida.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTranArlecchino.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTranArlecchino.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTranHuohuo.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTranHuohuo.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTranNavia.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTranNavia.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTranSparkle.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTranSparkle.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTranYunli.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTranYunli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongArlecchino.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongArlecchino.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongAyaka.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongAyaka.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongChiori.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongChiori.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongClorinde.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongClorinde.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongDehya.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongDehya.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongHuohuo.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongHuohuo.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongMualani.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongMualani.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongNavia.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongNavia.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongNilou.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongNilou.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongRaidenShougun.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongRaidenShougun.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongShenhe.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongShenhe.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongSparkle.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongSparkle.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongXianyun.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongXianyun.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongYae.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongYae.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranTuongYunli.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranTuongYunli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TranZhongli.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TranZhongli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TuongEi.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TuongEi.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TuongNahida.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TuongNahida.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TuongTuongSparkle.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TuongTuongSparkle.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TuongTuongYunli.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TuongTuongYunli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\TuongZhongli.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\TuongZhongli.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\acc.jpg",
+      "PackagePath": "staticwebassets\\media\\nicks\\acc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\anhbia.jpg",
+      "PackagePath": "staticwebassets\\media\\nicks\\anhbia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\anhbia.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\anhbia.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\banner.jpg",
+      "PackagePath": "staticwebassets\\media\\nicks\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\banner.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\e2b13d7d-9409-477b-9e3e-2527505a161d.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\e2b13d7d-9409-477b-9e3e-2527505a161d.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\genshin.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\genshin.png"
+    },
+    {
+      "Id": "C:\\Users\\phuct\\OneDrive\\Desktop\\ShopAcc\\ShopAcc\\ShopAcc\\wwwroot\\media\\nicks\\hsr.png",
+      "PackagePath": "staticwebassets\\media\\nicks\\hsr.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopAcc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopAcc.props",
+      "PackagePath": "build\\ShopAcc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopAcc.props",
+      "PackagePath": "buildMultiTargeting\\ShopAcc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopAcc.props",
+      "PackagePath": "buildTransitive\\ShopAcc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

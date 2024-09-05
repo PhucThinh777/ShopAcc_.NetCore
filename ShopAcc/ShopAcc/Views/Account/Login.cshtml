@@ -1,0 +1,112 @@
+﻿@using ShopAcc.Models.ViewModels
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<section id="login-section">
+    <!--form-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-8 col-md-6">
+                <div class="login-form">
+                    <!--login form-->
+                    <h2>Login to your account</h2>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <form asp-action="Login" asp-controller="Account">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input asp-for="Password" class="form-control" type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <button class="btn btn-primary btn-block">Login</button>
+                        <div class="text-center mt-3">
+                            <a asp-action="Create" asp-controller="Account">Create a new account</a>
+                        </div>
+                    </form>
+                </div><!--/login form-->
+            </div>
+        </div>
+    </div>
+</section><!--/form-->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    body {
+        background: #f4f7f6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #login-section {
+        padding: 50px 0;
+    }
+
+    .login-form {
+        background: #ffffff;
+        border: 1px solid #e3e3e3;
+        border-radius: 8px;
+        padding: 30px 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .login-form h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .form-control {
+        height: 45px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .text-center a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .text-center a:hover {
+            color: #0056b3;
+        }
+
+    .text-danger {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+</style>

@@ -1,0 +1,112 @@
+﻿@model ShopAcc.Models.ViewModels.CartItemViewModel
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<!-- CSS cho giỏ hàng -->
+<style>
+    .table {
+        border: 2px solid rebeccapurple; /* Màu viền của bảng */
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .table th, .table td {
+            border: 1px solid rebeccapurple; /* Màu viền của ô */
+            padding: 8px;
+            text-align: center;
+        }
+
+        .table img {
+            border-radius: 5px;
+        }
+
+    .cart-summary {
+        margin-top: 20px;
+        text-align: right;
+    }
+
+        .cart-summary h4 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 0.875rem;
+    }
+
+    .cart_quantity_input {
+        width: 50px;
+        text-align: center;
+    }
+
+    .total-row {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: right;
+    }
+</style>
+<div class="layout-container">
+
+    <!-- Thanh danh mục bên trái -->
+    @Html.Partial("_Sidebar")
+    <div class="main-content">
+        <h2>Giỏ hàng của bạn</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="row">
+                    <th class="col-2">Ảnh Bìa</th>
+                    <th class="col-2">Mô tả</th>
+                    <th class="col-2">Số lượng</th>
+                    <th class="col-2">Giá</th>
+                    <th class="col-4">Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.CartItems.Count > 0)
+                {
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <tr>
+                            <td>
+                                <img src="~/images/@item.AnhBia" alt="Ảnh Bìa" width="100" height="100" />
+                            </td>
+                            <td>@item.Description</td>
+                            <td>
+                                <input class="cart_quantity_input" type="number" value="@item.Quantity" min="1" readonly />
+                            </td>
+                            <td>@item.Price.ToString() VND</td>
+                            <td>
+                                <a class="btn btn-default btn-sm" asp-controller="Cart" asp-action="Increase" asp-route-id="@item.NickId"> + </a>
+                                <a class="btn btn-success btn-sm" asp-controller="Cart" asp-action="Decrease" asp-route-id="@item.NickId"> - </a>
+                                <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.NickId">Remove</a>
+                            </td>
+                        </tr>
+                    }
+                    <!-- Tổng cộng và các tùy chọn thanh toán -->
+                    <tr class="total-row">
+                        <td colspan="4">Tổng cộng:</td>
+                        <td>@Model.CartItems.Sum(x => x.Quantity * x.Price).ToString() VND</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="cart-summary">
+                            <a href="#" class="btn btn-success btn-sm">Thanh toán</a>
+                            <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear">Clear</a>
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5">
+                            <h4>Giỏ hàng trống!</h4>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-controller="Home" asp-action="Index" class="btn-sm btn-default btn-sm">Quay lại trang chủ</a>
+    </div>
+</div>

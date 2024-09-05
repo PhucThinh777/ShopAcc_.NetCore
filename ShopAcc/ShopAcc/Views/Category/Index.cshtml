@@ -1,0 +1,79 @@
+﻿@model IEnumerable<NickModel>
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="layout-container">
+    <!-- Thanh danh mục bên trái -->
+    @Html.Partial("_Sidebar")
+
+    <!-- Nội dung chính -->
+    <div class="main-content">
+        <div class="banner">
+            <h1>Chào mừng đến với Shop Acc</h1>
+            <img src="~/images/banner.png" />
+            <p>Mua tài khoản game chất lượng với giá tốt nhất!</p>
+            <a href="/Shop" class="btn">Mua ngay</a>
+        </div>
+
+        <div class="categories">
+            <h2>Danh mục tài khoản</h2>
+            <div class="category-list">
+                @foreach (var item in Model)
+                {
+                    <div class="category-item">
+                        <h3>Mã tài khoản: #00@(Model.ToList().IndexOf(item) + 1)</h3> <!-- In số thứ tự dựa trên index -->
+                        <img width="170px" height="150px" src="~/images/acc.jpg" alt="Game Accounts">
+                        <h5>Level Acc: @item.LevelAcc</h5>
+                        <h5>Server: @item.Server.Name</h5>
+                        <h5>Danh mục: @item.Category.Name</h5>
+                        <h5>Mô tả: @item.Description</h5>
+                        <h5>Tổng tướng: @item.TongTuong</h5>
+                        <h5>Tổng trấn: @item.TongTran</h5>
+                        <h5>Trấn nổi bật: </h5>
+                        @{
+                            // Chuỗi từ database
+                            string imageListTran = @item.TranNoiBat;
+
+                            // Tách chuỗi ra thành một mảng các phần tử
+                            var imagesTran = imageListTran.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                        }
+                        @foreach (var imageTran in imagesTran)
+                        {
+                            <img class="icon" src="~/media/nicks/@imageTran.Trim()" alt="Trấn nổi bật" />
+                        }
+                        <h5>Tướng nổi bật: </h5>
+                        @{
+                            // Chuỗi từ database
+                            string imageListTuong = @item.TuongNoiBat;
+
+                            // Tách chuỗi ra thành một mảng các phần tử
+                            var imagesTuong = imageListTuong.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                        }
+                        @foreach (var imageTuong in imagesTuong)
+                        {
+                            <img class="icon" src="~/media/nicks/@imageTuong.Trim()" alt="Tướng nổi bật" />
+                        }
+                        <h4 style="color:red">Giá: @item.Price</h4>
+                        <a type="submit" asp-controller="Nick" asp-action="Details" asp-route-Id="@item.Id" class="btn btn-warning btn-sm">Chi tiết</a>
+                        <a type="submit" asp-controller="Cart" asp-action="Add" asp-route-Id="@item.Id" class="btn btn-success btn-sm">Mua ngay</a>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+        <div class="featured-products">
+            <h2>Sản phẩm nổi bật</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="~/images/acc.jpg" alt="Product 1">
+                    <h3>Tài khoản LMHT Rank Cao</h3>
+                    <p>Giá: 1.500.000 VND</p>
+                    <a href="#" class="btn">Xem chi tiết</a>
+                </div>
+                <!-- Thêm các sản phẩm khác tương tự -->
+            </div>
+        </div>
+    </div>
+</div>
